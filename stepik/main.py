@@ -1,4 +1,6 @@
-inp_a = float(input())
-inp_b = float(input())
-result_s = inp_a * inp_b / 2
-print(result_s)
+num_p1 = float(input())
+num_p2 = float(input())
+num_q1 = float(input())
+num_q2 = float(input())
+result_lenght = abs(num_p1 - num_q1) + abs(num_p2 - num_q2)
+print(result_lenght)
