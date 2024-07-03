@@ -1,1 +1,2 @@
-inp_price = int(input())
+inp_num = int(input())
+
