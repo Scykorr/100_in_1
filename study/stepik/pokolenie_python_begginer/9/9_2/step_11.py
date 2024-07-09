@@ -1,8 +1,0 @@
-inp_string = input()
-print(len(inp_string))
-print(inp_string * 3)
-print(inp_string[0])
-print(inp_string[:3])
-print(inp_string[len(inp_string) - 3:len(inp_string)])
-print(inp_string[::-1])
-print(inp_string[1:(len(inp_string)) - 1])
