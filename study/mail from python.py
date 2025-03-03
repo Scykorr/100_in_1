@@ -7,7 +7,7 @@ server = smtp.SMTP('smtp.gmail.com', 587)
 server.starttls()
 server.login(login, password)
 
-subject = 'test theme'
-text = 'test text'
+subject = 'Тестовый заголовок'
+text = 'Тестовый текст письма'
 
-server.sendmail(login, 'fedosov-toxa@mail.ru', f'Subject:{subject}\n{text}')
+server.sendmail(login, 'fedosov-toxa@mail.ru', f'Subject:{subject}\n{text}'.encode('utf-8'))
